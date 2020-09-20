@@ -29,7 +29,7 @@ FocusScope {
     readonly property int cellPaddedWidth: cellWidth + cellSpacing
 
     // category labels of rows
-    readonly property int labelFontSize: vpx(18)
+    readonly property int labelFontSize: vpx(36)
     readonly property int labelHeight: labelFontSize * 2.5
 
     // layout

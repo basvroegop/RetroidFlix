@@ -34,7 +34,7 @@ Item {
 
         color: "#eee"
         font {
-            pixelSize: vpx(28)
+            pixelSize: vpx(56)
             family: globalFonts.sans
             bold: true
         }
@@ -53,21 +53,6 @@ Item {
             bottom: parent.bottom
             left: parent.left
             right: parent.right
-        }
-
-        Text {
-            text: game ? game.description : ""
-
-            width: parent.width
-
-            wrapMode: Text.WordWrap
-            horizontalAlignment: Text.AlignJustify
-
-            color: "#eee"
-            font {
-                pixelSize: vpx(16)
-                family: globalFonts.sans
-            }
         }
     }
 }
